@@ -1,0 +1,84 @@
+* {
+    box-sizing: 0;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.logo {
+    text-align: center;
+}
+
+.side_nav li {
+    list-style-type: none;
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.side_nav {
+    background-color: #A1000F;
+    color: #fff;
+    text-decoration: none;
+    vertical-align: auto;
+}
+
+
+/* MAIN */
+
+main {
+    color: #E20014;
+}
+
+main>button {
+    color: #E20014;
+}
+
+.salute_left {
+    margin-left: 30px;
+    display: inline-block;
+    justify-content: left;
+}
+
+.salute_right {
+    display: flex;
+    justify-content: right;
+}
+
+.greet {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.crd {
+    border: 12px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2px #fff;
+    font-size: small;
+}
+
+.price_title {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.naira {
+    text-decoration-style: double;
+}
+
+.amount {
+    font-size: 2rem;
+}
+
+small {
+    font-size: small;
+}
+
+.select_plan {
+    background-color: #A1000F;
+    color: white;
+    font-size: small;
+    padding: 15px 25px;
+}
